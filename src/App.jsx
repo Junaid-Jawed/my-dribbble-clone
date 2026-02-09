@@ -9,7 +9,7 @@ import Raw3D from './Raw3D';
 import db from './fake_db.json';
 import TopBar from './TopBar';
 import Footer from './Footer';
-import Explore3D from './Explore3D';
+import Explore3D from './Explore3d';
 
 
 gsap.registerPlugin(ScrollTrigger);
