@@ -93,7 +93,7 @@ const TopBar = ({ setView }) => {
           <div className={`h_line hl2 ${menuOpen ? 'vanish' : ''}`}></div>
           <div className={`h_line hl3 ${menuOpen ? 'rot2' : ''}`}></div>
         </div>
-        <div className="nav_logo">SYS.<span className="r_acc">ROOT</span></div>
+        <div className="nav_logo">DRI.<span className="r_acc">BBBLE</span></div>
         <div className="s_trig" onClick={() => setSearchOpen(true)}>
           <span className="s_txt">FIND // DATA</span>
           <IoSearch className="s_icon" />
