@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { IoHeart, IoEye, IoFlash } from "react-icons/io5";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Raw3D from './Raw3D';
 import db from './fake_db.json';
 import TopBar from './TopBar';
@@ -267,6 +268,7 @@ function MainView() {
       )}
 
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
