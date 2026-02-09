@@ -5,11 +5,11 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { IoHeart, IoEye, IoFlash } from "react-icons/io5";
-import Raw3D from './Raw3d';
+import Raw3D from './Raw3D';
 import db from './fake_db.json';
 import TopBar from './TopBar';
 import Footer from './Footer';
-import Explore3D from './Explore3d';
+import Explore3D from './Explore3D';
 
 
 gsap.registerPlugin(ScrollTrigger);
